@@ -1,1 +1,141 @@
 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(174, 174, 174);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_page {
+  height: 70vh;
+  width: 70vw;
+  background-color: white;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.profile_sec {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.about_me {
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.about_me_heading {
+  text-decoration: underline blue;
+  margin-bottom: 10px;
+}
+
+.photo_sec {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.skill_sec {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.skill {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.skill_bar {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(172, 172, 244);
+}
+
+.skill_bar2 {
+  background-color: blue;
+  height: 5px;
+}
+
+.skill_1 {
+  width: 95%;
+}
+
+
+.skill_2 {
+  width: 90%;
+}
+
+
+.skill_3 {
+  width: 99%;
+}
+
+
+.skill_4 {
+  width: 93%;
+}
+
+
+.photo {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.name_sec {
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.name {
+  display: inline;
+  font-size: 15px;
+  font-weight: 700px;
+}
+
+.name_value {
+  font-size: 12px;
+  margin-inline:5px;
+  font-weight: 500px;
+}
+
+.profile {
+   display: inline;
+  font-size: 15px;
+  font-weight: 700px;
+}
+
+.Email{
+  display: inline;
+  font-size: 15px;
+  font-weight: 700px;
+}
+
+.profile_photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
